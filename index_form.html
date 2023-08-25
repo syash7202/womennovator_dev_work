@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Womennovator Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+    <form action="https://womennovators.com/we/power_women/store" method="POST" enctype="multipart/form-data">
+        <input type="hidden" name="_token" value="paYuOuykv8jw3TmjM5D6H0BRrk01nhifGyIQSVOA">                <h4  class="form-title">Are you that 1 out of that 100 Power Women</h4>
+
+        <div class="form-group">
+            <label class="custom_label" for="person_name">Name(नाम)<span class="text-danger">*</span></label>
+            <input required="" type="text" class="form-control input" name="person_name" id="person_name" placeholder="Enter Your Name">
+        </div>
+
+        <div class="form-group">
+            <label class="custom_label" for="company_name">Company Name | Institution | University | Organisation (कंपनी | संस्था | विश्वविद्यालय | संगठन का नाम)</label>
+            <input type="text" class="form-control input" name="company_name" id="company_name" placeholder="Enter Company name">
+        </div>
+
+        <div class="form-group">
+            <label class="custom_label" for="designation">Designation(पद)</label>
+            <input type="text" class="form-control input" name="designation" id="designation" placeholder="Eg: Engineer">
+        </div>
+
+        <div class="form-group">
+            <label class="custom_label" for="email">Email(ईमेल)<span class="text-danger">*</span></label>
+            <input type="email" class="form-control input" name="email" id="email" placeholder="Eg: giorno@giovanna.com">
+        </div>
+        <div class="form-group">
+            <label class="custom_label" for="phone">Contact(संपर्क संख्या)<span class="text-danger">*</span></label>
+            <input required="" type="number" class="form-control input" name="phone" id="phone" placeholder="Eg: +918475142587">
+        </div>
+
+
+        <div class="form-group">
+            <label class="custom_label" for="state">City(शहर)<span class="text-danger">*</span></label>
+            <span><input required="" type="text" class="form-control input" name="city" id="city" placeholder="Enter Your City"></span>
+        </div>
+        <div class="form-group">
+            <label class="custom_label" for="state">State(राज्य)<span class="text-danger">*</span></label>
+            <span><input required="" type="text" class="form-control input" name="state" id="state" placeholder="Enter Your State"></span>
+        </div>
+        <div class="form-group">
+            <label class="custom_label" for="country">Country(देश)<span class="text-danger">*</span></label>
+            <input type="text" name="country" class="form-control input" placeholder="Enter Your Country" required="">
+        </div>
+        <div class="form-group">
+            <label class="custom_label" for="address">Address(पता)<span class="text-danger">*</span></label>
+            <input type="text" name="address" class="form-control input" placeholder="Enter Your Address" required="">
+        </div>
+
+        <div class="form-group">
+            <label class="custom_label" for="age">Age Group(आयु वर्ग)</label>
+            <select name="age" id="age" class="form-control select">
+                <option value="">---Select Age Group---</option>
+                <option value="20-25">20-25</option>
+                <option value="25-30">25-30</option>
+                <option value="30-35">30-35</option>
+                <option value="35-40">35-40</option>
+                <option value="40-45">40-45</option>
+                <option value="45-50">45-50</option>
+                <option value="50-55">50-55</option>
+                <option value="55-60">55-60</option>
+                <option value="60-65">60-65</option>
+                <option value="> 70">&gt; 70</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label class="custom_label" for="direct_reach">Direct Reach(Follower/Contacts/Engagements)/
+                सीधी पहुंच (अनुयायी/संपर्क/जुड़ाव)</label>
+            <input type="text" class="form-control input" name="direct_reach" id="direct_reach" placeholder="Enter Direct Reach">
+        </div>
+
+        <div class="form-group">
+            <label class="custom_label" for="indirect_reach">Indirect Reach(eg. If associated to a School or a
+                College or a Group- please mention the number of people listed under them) /<br>इनडायरेक्ट रीच (उदाहरण के लिए यदि किसी स्कूल या कॉलेज या समूह से जुड़ा है- तो कृपया उनके अंतर्गत सूचीबद्ध लोगों की संख्या का उल्लेख करें)</label>
+            <input type="text" class="form-control input" name="indirect_reach" id="indirect_reach" placeholder="eg. If associated to a School or a College or a Group">
+        </div>
+
+        <div class="form-group">
+            <label class="custom_label" for="goals">SDG Goals you are working on?(
+                एसडीजी लक्ष्यों पर आप काम कर रहे हैं?)</label><br>
+        <div class="sdg_goals">
+            <label style="font-size:15px">
+                <input type="checkbox" name="goals[]" value="GOAL 1: No Poverty">
+                GOAL 1: No Poverty
+            </label><br>
+            <label style="font-size:15px">
+                <input type="checkbox" name="goals[]" value="GOAL 2: Zero Hunger">
+                GOAL 2: Zero Hunger
+            </label><br>
+            <label style="font-size:15px">
+                <input type="checkbox" name="goals[]" value="GOAL 3: Good Health and Well-being">
+                GOAL 3: Good Health and Well-being
+            </label><br>
+            <label style="font-size:15px">
+                <input type="checkbox" name="goals[]" value="GOAL 4: Quality Education">
+                GOAL 4: Quality Education
+            </label><br>
+            <label style="font-size:15px">
+                <input type="checkbox" name="goals[]" value="GOAL 5: Gender Equality">
+                GOAL 5: Gender Equality
+            </label><br>
+            <label style="font-size:15px">
+                <input type="checkbox" name="goals[]" value="GOAL 6: Clean Water and Sanitation">
+                GOAL 6: Clean Water and Sanitation
+            </label><br>
+            <label style="font-size:15px">
+                <input type="checkbox" name="goals[]" value="GOAL 7: Affordable and Clean Energy">
+                GOAL 7: Affordable and Clean Energy
+            </label><br>
+            <label style="font-size:15px">
+                <input type="checkbox" name="goals[]" value="GOAL 8: Decent Work and Economic Growth">
+                GOAL 8: Decent Work and Economic Growth
+            </label><br>
+            <label style="font-size:15px">
+                <input type="checkbox" name="goals[]" value="GOAL 10: Reduced Inequality">
+                GOAL 10: Reduced Inequality
+            </label><br>
+            <label style="font-size:15px">
+                <input type="checkbox" name="goals[]" value="GOAL 13: Climate Action">
+                GOAL 13: Climate Action
+            </label><br>
+            <label style="font-size:15px">
+                <input type="checkbox" name="goals[]" value="GOAL 14: Life Below Water">
+                GOAL 14: Life Below Water
+            </label><br>
+            <label style="font-size:15px">
+                <input type="checkbox" name="goals[]" value="GOAL 15: Life on Land">
+                GOAL 15: Life on Land
+            </label><br>
+            <label style="font-size:15px">
+                <input type="checkbox" name="goals[]" value="GOAL 16: Peace and Justice Strong Institutions">
+                GOAL 16: Peace and Justice Strong Institutions
+            </label><br>
+            <label style="font-size:15px">
+                <input type="checkbox" name="goals[]" value="GOAL 15: Partnerships to achieve the Goal">
+                GOAL 17: Partnerships to achieve the Goal
+            </label><br>
+            <label style="font-size:15px">
+                <input type="checkbox" name="goals[]" value="Other">
+                Other
+            </label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="custom_label" for="social_followers">Social Media Handles: &amp; Number of Followers(सोशल मीडिया हैंडल: और फॉलोअर्स की संख्या)</label>
+            <input type="text" class="form-control input" name="social_followers" id="social_followers" placeholder="Enter Social Media Handles: &amp; Number of Followers">
+        </div>
+
+        <div class="form-group">
+            <label class="custom_label" for="linkedin">LinkedIn</label>
+            <input type="text" class="form-control input" name="linkedin" id="linkedin" placeholder="Enter LinkedIn">
+        </div>
+
+        <div class="form-group">
+            <label class="custom_label" for="facebook">Facebook</label>
+            <input type="text" class="form-control input" name="facebook" id="facebook" placeholder="Enter Facebook">
+        </div>
+
+        <div class="form-group">
+            <label class="custom_label" for="instagram">Instagram</label>
+            <input type="text" class="form-control input" name="instagram" id="instagram" placeholder="Enter Instagram">
+        </div>
+
+        <div class="form-group">
+            <label class="custom_label" for="twitter">Twitter</label>
+            <input type="text" class="form-control input" name="twitter" id="twitter" placeholder="Enter Twitter">
+        </div>
+
+        <div class="form-group">
+            <label class="custom_label" for="youtube">Youtube</label>
+            <input type="text" class="form-control input" name="youtube" id="youtube" placeholder="Enter Youtube">
+        </div>
+
+        <div class="form-group">
+            <label class="custom_label" for="highlight">Anything you want to highlight(upto 500 words) / आप जो कुछ भी हाइलाइट करना चाहते हैं (500 शब्दों तक)<span class="text-danger">*</span></label>
+            <textarea name="highlight" id="highlight" rows="10" cols="100"  style="resize:none; "></textarea>
+        </div>
+
+        <div class="form-group">
+            <label class="custom_label" for="product_specification">Image of your Product or Service(आपके उत्पाद या सेवा की छवि)</label>
+            <input type="file" class="d-none" name="product_specification" id="product_specification">
+        </div>
+
+        <div class="form-group">
+            <label class="custom_label" for="industry_type">Industry Type(उद्योग के प्रकार)</label>
+            <select class="form-control select" name="industry_type">
+                                        <option value="">--Select Industry Type--</option>
+                                            <option value="1">
+                        Aerospace Industry
+</option>
+                                            <option value="2">
+                        Transport Industry</option>
+                                            <option value="3">
+                        Computer Industry
+</option>
+                                            <option value="4">
+                        Telecommunication  Industry</option>
+                                            <option value="5">
+                        Agriculture   Industry</option>
+                                            <option value="6">
+                        Construction Industry
+</option>
+                                            <option value="7">
+                        Education Industry</option>
+                                            <option value="8">
+                        Pharmaceutical Industry</option>
+                                            <option value="9">
+                        Food Industry</option>
+                                            <option value="10">
+                        Health care Industry</option>
+                                            <option value="12">
+                        Entertainment Industry</option>
+                                            <option value="13">
+                        News Media Industry</option>
+                                            <option value="14">
+                        Energy Industry</option>
+                                            <option value="15">
+                        Manufacturing Industry</option>
+                                            <option value="16">
+                        Music Industry</option>
+                                            <option value="17">
+                        Mining Industry</option>
+                                            <option value="18">
+                        Worldwide web Industry</option>
+                                            <option value="19">
+                        Electronics Industry</option>
+                                            <option value="21">
+                        Hospitality Industry</option>
+                                            <option value="22">
+                        Others</option>
+                                            <option value="23">
+                        Pharmaceutical</option>
+                                            <option value="25">
+                        Digital Influencer</option>
+                                            <option value="26">
+                        Education</option>
+                                            <option value="27">
+                        Micro Small &amp; Medium Enterprises</option>
+                                            <option value="28">
+                        Fashion &amp; Beauty</option>
+                                            <option value="29">
+                        Wellness Consultancy</option>
+                                            <option value="30">
+                        Legal</option>
+                                    </select>
+        </div>
+
+        <div class="form-group">
+            <label class="custom_label" for="sector">Sector(क्षेत्र)</label>
+            <select class="form-control select" name="sector">
+                                        <option value="">--Select Sector---</option>
+                                            <option value="49">
+                        Agri Business &amp; Food Processing &amp; Organic Farming</option>
+                                            <option value="52">
+                        Architect, Housing Development, Interior Design</option>
+                                            <option value="43">
+                        Artificial Intelligence/ Blockchain Technology/Digital Transformation</option>
+                                            <option value="36">
+                        Banking , Financial Services &amp; Insurance</option>
+                                            <option value="33">
+                        Beauty and Wellness </option>
+                                            <option value="59">
+                        Civil Aviation</option>
+                                            <option value="35">
+                        Corporate Affairs</option>
+                                            <option value="74">
+                        Corporate Training</option>
+                                            <option value="24">
+                        CSR Council</option>
+                                            <option value="63">
+                        Cyber Security &amp; Cyber Law</option>
+                                            <option value="45">
+                        Defence &amp; HLS Aerospace</option>
+                                            <option value="26">
+                        Digital Marketing</option>
+                                            <option value="60">
+                        Direct Marketing/Direct Selling</option>
+                                            <option value="30">
+                        Education</option>
+                                            <option value="48">
+                        Entertainment</option>
+                                            <option value="21">
+                        Entertainment , Media , Art &amp; Culture</option>
+                                            <option value="42">
+                        Environment, Waste Management &amp; Energy Conservation</option>
+                                            <option value="58">
+                        Event Management, Seminars, Conclave &amp; Summit</option>
+                                            <option value="77">
+                        Finance and Accounting</option>
+                                            <option value="68">
+                        Food &amp; Bewerages</option>
+                                            <option value="20">
+                        Gems &amp; Jewellery</option>
+                                            <option value="39">
+                        Gold Gem &amp; Jewellery, Fashion &amp; Luxury Lifestyle</option>
+                                            <option value="22">
+                        Healthcare, Mental &amp; Wellness</option>
+                                            <option value="38">
+                        Hospitality &amp; Tourism</option>
+                                            <option value="23">
+                        Human Resouce &amp; Management and training and development </option>
+                                            <option value="47">
+                        Infrastructure &amp; Real Estate</option>
+                                            <option value="27">
+                        IT, ITEs &amp; E Commerce</option>
+                                            <option value="44">
+                        Law &amp; Justice</option>
+                                            <option value="37">
+                        Literature </option>
+                                            <option value="46">
+                        Manufacturing</option>
+                                            <option value="25">
+                        Micro, Small and Medium Enterprises </option>
+                                            <option value="69">
+                        Pageant</option>
+                                            <option value="41">
+                        Parliamentary Forum</option>
+                                            <option value="71">
+                        Performing Arts</option>
+                                            <option value="75">
+                        Pharmaceutical</option>
+                                            <option value="64">
+                        Pharmaceutical</option>
+                                            <option value="61">
+                        Photography &amp; Cinematography</option>
+                                            <option value="62">
+                        Power, renewable and Alternative Energy</option>
+                                            <option value="72">
+                        Rehabilitation</option>
+                                            <option value="28">
+                        Scale &amp; Entrepreneurship Development</option>
+                                            <option value="73">
+                        Skill Training</option>
+                                            <option value="70">
+                        Specially Abled Entrepreneur</option>
+                                            <option value="40">
+                        Sports &amp; Youth Affair</option>
+                                            <option value="51">
+                        Telecommunications</option>
+                                            <option value="50">
+                        Transportation &amp; Logistics</option>
+                                            <option value="66">
+                        Travel &amp; Tourism</option>
+                                            <option value="29">
+                        Women Empowerment &amp; Development</option>
+                                    </select>
+        </div>
+
+        <div class="form-group">
+            <label class="custom_label"> Upload Picture(तसवीर डालें - यह भरना अनिवार्य है )<span class="text-danger">*</span></label>
+            <input name="picture" id="picture" type="file" class="d-none" required="">
+        </div>
+
+        <div class="form-group">
+            <label class="custom_label" for="referred_by">Referred By(द्वारा उल्लिखित)<span class="text-danger">*</span></label>
+            <input type="text" class="form-control input" name="referred_by" id="referred_by" placeholder="Enter Referred By" required="">
+        </div>
+
+        
+
+        <input type="submit" value="SUBMIT" class="btn-block submit_btn" style="background-color:#ce199a;">
+    </form>
+
+    </div>
+</body>
+</html>
